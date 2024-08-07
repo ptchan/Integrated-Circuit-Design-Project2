@@ -2,12 +2,6 @@
 
 ***Homework # 3*** 
 
-(Due on 2023/11/23, 09:10. Verilog code and Report upload to NTUCool) 
-
-- Plagiarism is not allowed. 10% penalty for each day of delay.  
-- Any further questions, you can send e-mail to the TA (陳帝宇)or leave messages on the board of the class website.  
-- TA email:[ tp62u4m3@gmail.com,](mailto:tp62u4m3@gmail.com) EE2-329 
-
 Specifications 
 
 In this homework, you are asked to design a **gate-level combinational circuit** that finds the type of the given hands of five given playing cards. The inputs of this circuit are **five 6-bit** digital values, denoted as *i0, i1, i2, i3, i4*. **The** **2 MSBs** in the 6-bits **indicate their suits**. 0, 1, 2, and 3 refer to spades, hearts, diamonds, and clubs, respectively. While **the remaining 4 bits are their ranks**. Ace, Jack, Queen, and King are represented by 1, 11, 12, and 13, respectively. The output of the circuit, denoted as *type*, is a **4-bit unsigned number**. The possible types are listed below: 
@@ -121,13 +115,3 @@ The header of the top module and the declaration of the I/O ports are predefined
 - File name rule : *HW3\_(student id)\_v#* 
 
   Ex. HW3\_b05901058\_v1.zip Ex. HW3\_b05901058\_v2.zip 
-
-TA：陳帝宇，EE2-329 
-
-TA email:[ tp62u4m3@gmail.com ](mailto:tp62u4m3@gmail.com)
-
-HW3 Office hours: 11/21 18:30-20:30 @  電二 329 室 
-
-11/22 18:30-20:30 @  電二 329 室 
-
-If you have no time during office hours, you can email TA to discuss another time for appointment.  
